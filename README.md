@@ -1,31 +1,29 @@
-# 🐍 Python Visualization
+# 🐍 Python DataFrame Handling
+
+<img src="./data/padnas.png" title="Pandas_Logo"/>
 
 파이썬 라이브러리를 활용한 판다스 라이브러리의 활용 repository 입니다. <br>
 이 repository의 구성은 다음과 같습니다.
 
-0. `data`
-1. `Matplotlib.ipynb`
-2. `Seaborn.ipynb`
-3. `MissingData.ipynb`
-4. `Location.ipynb`
-5. `ML.ipynb`
+1. `판다스_기초.ipynb`
+2. `판다스_시각화_및_전처리.ipynb`
+3. `판다스를_활용한_데이터_전처리.ipynb`
+4. `데이터_프레임의_다양한_응용.ipynb`
 
-python의 시각화 라이브러리 `matplotlib.pyplot`, `seaborn`을 활용하였으며, 이 시각화가 어떤 방식으로 활용되는지에 대한 예시를 제공합니다. <br>
+python의 시각화 라이브러리 `pandas`을 활용하였으며, 이 라이브러리가 어떤 방식으로 활용되는지에 대한 예시를 제공합니다. <br>
 데이터 전처리 단계에서는 이상치 탐지와 결측치 확인을 위해 시각적 도구를 제공합니다. 데이터를 결합하고 분석할 때, 이 라이브러리들은 <b>변수 간의 관계</b>와 <b>데이터 분포</b>를 이해하는 데 도움을 줍니다. 또한, 머신러닝 모델을 <b>개발</b>하고 <b>평가</b>하는 과정에서도 시각화 그림을 통해 <b>모델의 성능을 직관적으로 평가</b>할 수 있게 합니다.
 
-## 0. data
+## 1. 판다스 기초.ipynb
 
-- `ipynb` 파일에서 사용되는 데이터 파일들
+- 판다스 자료형
+- 데이터 프레임 생성
+- 데이터 프레임 접근
+- 기본 연산
+- 산술 연산
+- 데이터 프레임 결합
+- 데이터 프레임 재구조화
 
-## 1. Matplotlib.ipynb
-
-- 제목 표시
-- 범례 표시
-- x, y 축 라벨 표시
-- 그림 크기, 선 스타일, 색상 지정
-- 여러개의 그래프를 동시에 표시하기 (subplot)
-
-## 2. Seaborn.ipynb
+## 2. 판다스 시각화 및 전처리.ipynb
 
 - Bar Plot
 - Count Plot
@@ -38,25 +36,20 @@ python의 시각화 라이브러리 `matplotlib.pyplot`, `seaborn`을 활용하�
 - KDE Plot
 - Joint Plot
 
-## 3. MissingData.ipynb
+## 3. 판다스를 활용한 데이터 전처리.ipynb
 
-- 결측 데이터 시각화
-- 이상치 데이터 시각화
+- 누락 데이터 제거
+- 데이터 표준화
+- 범주형 데이터 처리
+  - 구간 분할
+  - 더미 변수
+- 시계열 데이터
 
-## 4. Location.ipynb
+## 4. 데이터 프레임의 다양한 응용.ipynb
 
-- folium 라이브러리를 활용한 지도 시각화
-
-## 5. ML.ipynb
-
-- 회귀분석
-  - 단순 회귀분석
-  - 다항 회귀분석
-  - 다중 회귀분석
-- 분류분석
-  - KNN
-  - SVM
-  - Decision Tree
-- 군집 분석
-  - K-means
-  - DBSCAN
+- 함수 매핑
+- 필터링
+- 그룹 객체 생성
+- 그룹 연산 메서드
+- 멀티 인덱스
+- 피벗 테이블 다루기
